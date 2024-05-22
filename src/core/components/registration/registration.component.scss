@@ -1,0 +1,114 @@
+.step-content {
+    margin-bottom: 20px;
+    width: 50%;
+    border-radius: 15px;
+   
+  }
+  
+  .form {
+    width: 100%;
+    font-family: sans-serif;
+  
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    font-family: sans-serif;
+  
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+  .custom-input {
+    height: 60px; /* Adjust the height as needed */
+    background-color: #ffffff;
+    font-family: sans-serif;
+  
+  }
+  
+    .btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #8e54e9;
+  
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background:linear-gradient( to right,#fe03b4,#ee0202);
+  }
+  .btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.5);
+  }
+  .example-full-width{
+  width: 90%;
+  }
+  :host ::ng-deep .mdc-text-field--outlined {
+  --mdc-outlined-text-field-container-shape: 28px;
+  }
+  ::ng-deep .mat-horizontal-content-container{
+  padding: 20px! important;
+  background-color: rgb(241,241, 241);
+  border-radius: 0 0 15px 15px;
+  }
+  ::ng-deep .mat-horizontal-stepper-header-container{
+  background-color: rgb(255, 215, 215);
+  border-left: 2px solid #00c50a;
+  border-top: 2px solid #3b65c0;
+  border-right: 2px solid #00c50a;
+  border-bottom: 2px solid #ff1b1b;
+  padding: 20px 0;
+  border-radius:  15px 15px 0 0 ;
+  }
+  ::ng-deep .mat-stepper-horizontal-line{
+  border-top-color: #ff1b1b;
+  border-top-style: dashed !important;
+  border-top-width: 2px !important;
+  }
+  ::ng-deep .mat-step-header{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #bdbdbd;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px;
+  }
+  ::ng-deep .mat-step-header.mat-horizontal-stepper-header{
+  /* height: max-content !important; */
+  height: 40px;
+  width: max-content !important;
+  }
+  ::ng-deep .mat-step-header.cdk-keyboard-focused,
+  ::ng-deep .mat-step-header.cdk-program-focused
+  {
+  background-color: rgb(37, 123, 203);
+  color: #000;
+  border: 1px solid #f44a3e !important;
+  }
+  
+  ::ng-deep .mat-calendar-header{
+  margin: 0;
+  background-color: #78ff71;
+  }
+  ::ng-deep .mat-calendar-arrow{
+  fill:rgba(253, 0, 0, 0.54) !important;
+  }
+  ::ng-deep .mat-datepicker-toggle,
+  ::ng-deep .mat-datepicker-content .mat-calendar-next-button,
+  ::ng-deep .mat-datepicker-content .mat-calendar-previous-button
+  {
+  color: #8e54e9!important;
+  }
+  .container ::before{
+  top:-2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  transform: skew(2deg,2deg);
+  z-index: -1;
+  }
